@@ -15,6 +15,14 @@
     export let pokeman;
     const type = pokeman.types[0].type.name;
     const id = `/#${pokeman.name}`;
+
+    if(pokeman.id == 392) {
+        pokeman.name = 'Fabio Roque';
+        pokeman.type = 'Human';
+        pokeman.height = '175cm';
+        pokeman.weight = '85kg';
+        pokeman.sprites['front_default'] = '/images/fabio.jpg';
+    }
 </script>
 
 

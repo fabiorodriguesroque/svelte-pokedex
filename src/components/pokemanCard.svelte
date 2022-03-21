@@ -1,5 +1,10 @@
 <script>
     export let pokeman; 
+    
+    if(pokeman.id == 392) {
+        pokeman.name  = 'Fabio Roque';
+        pokeman.image = './images/fabio.jpg';
+    }
 </script>
 
 <a
